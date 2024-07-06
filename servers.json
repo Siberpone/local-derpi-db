@@ -1,0 +1,15 @@
+{
+    "Servers": {
+        "1": {
+            "Group": "Servers",
+            "Name": "Derpibooru",
+            "Host": "derpi_postgres_container",
+            "Port": 5432,
+            "MaintenanceDB": "derpibooru",
+            "Username": "postgres",
+            "Password": "postgres",
+            "SSLMode": "prefer",
+            "Favorite": true
+        }
+    }
+}
